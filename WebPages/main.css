@@ -1,0 +1,31 @@
+@import url(overlay.css);
+body {
+  font-size: 16px;
+}
+.content-div {
+  width: 400px;
+
+  height: 300px;
+
+  margin: auto;
+
+  background-color: rgb(245, 230, 212);
+}
+.section {
+  height: 500px;
+  width: 800px;
+  background-image: url("../images/GasStation.jpg");
+  background-size: cover;
+  border: 1px solid red;
+}
+
+#divOpacity {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.3);
+}
+ul li {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.6rem;
+}
