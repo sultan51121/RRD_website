@@ -1,0 +1,13 @@
+#gallery {
+  background: #323232;
+}
+#carouselGallery {
+  position: absolute;
+  height: auto;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+}
+[data-gallery="button"] {
+  background-color: red;
+}
