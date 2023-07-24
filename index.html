@@ -27,7 +27,7 @@
   <body>
     <div class="container-fluid">
       <!--       Good Navbar    -->
-      <nav class="navbar navbar-expand-sm">
+      <nav class="row navbar navbar-expand-sm">
         <!-- The original clas is container-fluid not container-->
         <div class="container">
           <button
@@ -423,47 +423,65 @@
           />
         </div>
       </nav>
-
-      <!-- Carousel -->
-      <div id="demo" class="carousel slide" data-bs-ride="carousel">
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#demo"
-            data-bs-slide-to="0"
-            class="active"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#demo"
-            data-bs-slide-to="1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#demo"
-            data-bs-slide-to="2"
-          ></button>
-        </div>
-
-        <!-- The slideshow/carousel -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="gradient-indexCSS">
-              <div class="carousel-caption-indexCSS">
-                <h3 class="heading">Welcome To</h3>
-                <h1 class="heading">Riyadh Refinery Department</h1>
-                <p class="carousel-description captionText">
-                  Saudi Aramco will publish its half-year 2023 dividend and
-                  financial statements on August 7, 2023.
-                </p>
-              </div>
-            </div>
-            <img src="./images/Welcome.jpg" alt="Los Angeles" class="d-block" />
+      <div class="row">
+        <!-- Carousel -->
+        <div id="carouselBorder" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"
+            ></button>
           </div>
-          <div class="carousel-item">
-            <div class="gradient-indexCSS">
-              <div class="carousel-caption-indexCSS">
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="gradient-indexCSS">
+                <div class="carousel-caption-indexCSS">
+                  <h3 class="heading">Welcome To</h3>
+                  <h1 class="heading">Riyadh Refinery Department</h1>
+                  <p class="carousel-description captionText">
+                    Saudi Aramco will publish its half-year 2023 dividend and
+                    financial statements on August 7, 2023.
+                  </p>
+                </div>
+              </div>
+              <img
+                src="./images/Welcome.jpg"
+                alt="Los Angeles"
+                class="d-block"
+              />
+            </div>
+            <div class="carousel-item">
+              <div class="gradient-indexCSS">
+                <div class="carousel-caption-indexCSS">
+                  <h3 class="heading">August 7, 2023</h3>
+                  <h1 class="heading">
+                    Saudi Aramco's half-year 2023 results announcement
+                  </h1>
+                  <p class="carousel-description captionText">
+                    Saudi Aramco will publish its half-year 2023 dividend and
+                    financial statements on August 7, 2023.
+                  </p>
+                </div>
+              </div>
+              <img src="./images/Plant.jpg" alt="Chicago" class="d-block" />
+            </div>
+            <div class="carousel-item img-gradient-indexCSS">
+              <div class="gradient-indexCSS">
                 <h3 class="heading">August 7, 2023</h3>
                 <h1 class="heading">
                   Saudi Aramco's half-year 2023 results announcement
@@ -473,48 +491,51 @@
                   financial statements on August 7, 2023.
                 </p>
               </div>
+              <img src="./images/Safety.jpg" alt="New York" class="d-block" />
             </div>
-            <img src="./images/Plant.jpg" alt="Chicago" class="d-block" />
           </div>
-          <div class="carousel-item img-gradient-indexCSS">
-            <div class="gradient-indexCSS">
-              <h3 class="heading">August 7, 2023</h3>
-              <h1 class="heading">
-                Saudi Aramco's half-year 2023 results announcement
-              </h1>
-              <p class="carousel-description captionText">
-                Saudi Aramco will publish its half-year 2023 dividend and
-                financial statements on August 7, 2023.
+
+          <!-- Left and right controls/icons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      <main>
+        <div class="row" id="AboutRRD">
+          <div class="d-flex">
+            <div><h3>About Riyadh Refinery</h3></div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam neque mollitia recusandae quis, excepturi autem
+                maiores animi illo at a porro eligendi similique non? Optio
+                neque exercitationem voluptatem ea eaque! Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Quibusdam neque mollitia
+                recusandae quis, excepturi autem maiores animi illo at a porro
+                eligendi similique non? Optio neque exercitationem voluptatem ea
+                eaque!
               </p>
             </div>
-            <img src="./images/Safety.jpg" alt="New York" class="d-block" />
           </div>
         </div>
+        <div class="row">************</div>
+        <div class="row">************</div>
+      </main>
 
-        <!-- Left and right controls/icons -->
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon"></span>
-        </button>
-      </div>
-      <div class="row">
-        <h1 class="animate__animated animate__bounce">An animated element</h1>
-      </div>
-      <div class="row">************</div>
-      <div class="row">************</div>
-      <div class="row">************</div>
       <!-- Footer might need class row  -->
       <footer class="row">
         <div

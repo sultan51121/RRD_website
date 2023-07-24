@@ -1,0 +1,14 @@
+Green:
+#84BD00
+#00843D
+
+BLUE:
+#00A3E0
+#0033A0
+
+Gray:
+#323232 Dark
+#5f6369
+
+#C0C0C0 Neut
+#DADADA light
