@@ -129,3 +129,14 @@ main {
   height: 20rem;
   width: 20rem;
 }
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.15rem;
+}
+
+.events_gallery {
+  background-color: #00843d;
+  background-image: linear-gradient(to right, #00843d, #84bd00);
+}
