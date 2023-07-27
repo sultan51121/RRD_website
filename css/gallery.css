@@ -3,11 +3,14 @@
 }
 #carouselGallery {
   position: absolute;
-  height: auto;
+  height: 500px;
   width: 80%;
   top: 10%;
   left: 10%;
 }
 [data-gallery="button"] {
   background-color: red;
+}
+.d-block {
+  height: 500px;
 }

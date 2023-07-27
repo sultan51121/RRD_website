@@ -1,6 +1,10 @@
 body {
   font-size: 16px;
 }
+a.nav-link {
+  color: #00843d;
+  font-size: 1.15rem;
+}
 .dropdown-menu li {
   position: relative;
 }
@@ -109,7 +113,6 @@ ul.col-sm-9 {
 #AboutRRD {
   height: 200px;
   margin-top: 125px;
-  border: 3px solid red;
 }
 
 main {
@@ -121,4 +124,8 @@ main {
 }
 #Carousel_id {
   padding: 0;
+}
+.gallery_elements {
+  height: 20rem;
+  width: 20rem;
 }

@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="index.css" rel="stylesheet" />
-    <link href="./node_modules/animate.css/" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./node_modules/animate.css/animate.css" rel="stylesheet" />
+
     <link
       href="./node_modules/bootstrap/dist/css/bootstrap.css"
       rel="stylesheet"
@@ -21,14 +22,13 @@
       href="./node_modules/bootstrap/dist/css/bootstrap-reboot.css"
       rel="stylesheet"
     />
-
     <title>Document</title>
   </head>
   <body>
     <div class="container-fluid">
       <!--       Good Navbar    -->
-      <nav class="row navbar navbar-expand-sm">
-        <!-- The original clas is container-fluid not container-->
+      <nav class="row navbar navbar-expand-sm p-3">
+        <!-- The original class is container-fluid not container-->
         <div class="container">
           <button
             class="navbar-toggler"
@@ -42,7 +42,9 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="col-sm-9 nav navbar-nav nav-tabs">
               <li class="nav-item dropdown">
-                <a class="nav-link" data-bs-toggle="dropdown" href="#">Home</a>
+                <a class="nav-link" data-bs-toggle="dropdown" href="#">
+                  Home
+                </a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link" data-bs-toggle="dropdown" href="#"
@@ -450,7 +452,9 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="gradient-indexCSS">
-                <div class="carousel-caption-indexCSS">
+                <div
+                  class="carousel-caption-indexCSS animate__animated animate__fadeInDown"
+                >
                   <h3 class="heading">Welcome To</h3>
                   <h1 class="heading">Riyadh Refinery Department</h1>
                   <p class="carousel-description captionText">
@@ -467,7 +471,9 @@
             </div>
             <div class="carousel-item">
               <div class="gradient-indexCSS">
-                <div class="carousel-caption-indexCSS">
+                <div
+                  class="carousel-caption-indexCSS animate__animated animate__slideInDown"
+                >
                   <h3 class="heading">August 7, 2023</h3>
                   <h1 class="heading">
                     Saudi Aramco's half-year 2023 results announcement
@@ -486,7 +492,9 @@
             </div>
             <div class="carousel-item img-gradient-indexCSS">
               <div class="gradient-indexCSS">
-                <div class="carousel-caption-indexCSS">
+                <div
+                  class="carousel-caption-indexCSS animate__animated animate__slideInDown"
+                >
                   <h3 class="heading">August 7, 2023</h3>
                   <h1 class="heading">
                     Saudi Aramco's half-year 2023 results announcement
@@ -542,19 +550,45 @@
             </div>
           </div>
         </div>
-        <section class="row">
-          <div>
-            <div class="gallery">
-              
-                <img src="./images/Plant.jpg" alt="Events" />
-              </a>
-              <div class="desc">Add a description of the image here</div>
+
+        <div class="row">
+          <!-- Display flex column then row to manage h2 display in the page-->
+          <div class="d-flex flex-column">
+            <div><h2>Our Events</h2></div>
+            <div class="d-flex justify-content-around m-5">
+              <div class="p-2 bg-danger">
+                <a href="./WebPages/Gallery/Event_1/Gallery_Carousel.html">
+                  <img
+                    src="./WebPages/Gallery/Event_1/Images/img_1.jpg"
+                    alt="Image"
+                    class="gallery_elements"
+                  />
+                </a>
+                <h3>LPCR Visit</h3>
+              </div>
+              <div class="p-2 bg-danger">
+                <a href="./WebPages/Gallery/Event_1/Gallery_Carousel.html">
+                  <img
+                    src="./WebPages/Gallery/Event_1/Images/img_2.png"
+                    alt="Image"
+                    class="gallery_elements"
+                  />
+                </a>
+                <h3>MSR</h3>
+              </div>
+              <div class="p-2 bg-danger">
+                <a href="./WebPages/Gallery/Event_1/Gallery_Carousel.html">
+                  <img
+                    src="./WebPages/Gallery/Event_1/Images/img_3.jpg"
+                    alt="Image"
+                    class="gallery_elements"
+                  />
+                </a>
+                <h3>LPCR Visit</h3>
+              </div>
             </div>
           </div>
-          <div></div>
-          <div></div>
-        </section>
-        <div class="row">************</div>
+        </div>
       </main>
 
       <!-- Footer might need class row  -->
