@@ -1,8 +1,9 @@
 body {
   font-size: 16px;
 }
+
 a.nav-link {
-  color: #00843d;
+  color: #0033a0;
   font-size: 1.15rem;
 }
 .dropdown-menu li {
@@ -110,10 +111,6 @@ a.nav-link {
 ul.col-sm-9 {
   border: none;
 }
-#AboutRRD {
-  height: 200px;
-  margin-top: 125px;
-}
 
 main {
   width: 90%;
@@ -139,4 +136,7 @@ footer a {
 .events_gallery {
   background-color: #00843d;
   background-image: linear-gradient(to right, #00843d, #84bd00);
+}
+.Vision_Mission_stra {
+  color: #0033a0;
 }
