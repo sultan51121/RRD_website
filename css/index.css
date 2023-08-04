@@ -62,8 +62,8 @@ a.nav-link {
   padding: 5px 15px;
 }
 #logo {
-  width: 125px;
-  height: 51px;
+  width: 50px;
+  height: 70px;
 }
 
 .d-block {
@@ -143,5 +143,17 @@ footer a {
 
 .SuccessStories {
   width: 100%;
-  height: auto;
+  height: 300px;
+}
+
+#img_Success {
+  padding: 0;
+}
+
+video {
+  height: 500px;
+}
+
+.Success_Stories_Div {
+  overflow-wrap: break-word;
 }
