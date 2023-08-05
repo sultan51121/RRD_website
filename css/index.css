@@ -123,8 +123,8 @@ main {
   padding: 0;
 }
 .gallery_elements {
-  height: 20rem;
-  width: 20rem;
+  height: auto;
+  width: 100%;
 }
 
 footer a {
@@ -152,8 +152,4 @@ footer a {
 
 video {
   height: 500px;
-}
-
-.Success_Stories_Div {
-  overflow-wrap: break-word;
 }
